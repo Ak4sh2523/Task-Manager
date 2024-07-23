@@ -1,0 +1,64 @@
+#side_bar_img {
+    width: 20px;
+    height: 20px;
+}
+::selection {
+    background-color: white;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#displayContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#taskDisplay
+{
+    margin-top: 20px;
+    padding: 10px;
+    background: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+}
+.deleteBtn {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.deleteBtn:hover {
+    background: #c82333;
+}
+.deleteBtnNew
+{
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.deleteBtnNew:hover {
+    background: #c82333;
+}
+
+* {
+    font-family: "Biryani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.bottom-right-button {
+    position: fixed;
+    bottom: 40px; 
+    right: 20px;  
+}
